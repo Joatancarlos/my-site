@@ -16,7 +16,7 @@ return (
       <Router>
     
         <Routes>
-          <Route path='/' element={<Home/>}>    </Route>
+          <Route path='/my-site' element={<Home/>}>    </Route>
           <Route path='*' element={<h1>ERRO 404: PÁGINA NÃO ENCONTRADA</h1>}></Route>
         </Routes>
       </Router>
