@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/my-site/static/css/main.79d9058a.css",
+    "main.js": "/my-site/static/js/main.43f91975.js",
+    "static/media/cursoreacthdc.jpg": "/my-site/static/media/cursoreacthdc.d0c01bb1747941a01e34.jpg",
+    "static/media/cvmodulo2.jpg": "/my-site/static/media/cvmodulo2.9b5a9a523b1ee961cf80.jpg",
+    "static/media/screenshot.jpg": "/my-site/static/media/screenshot.bcdec665f48f1bd040bd.jpg",
+    "static/media/cvmodulo3.jpg": "/my-site/static/media/cvmodulo3.d33b7931492004be9970.jpg",
+    "static/media/joatan.jpg": "/my-site/static/media/joatan.1ca8f234c44e242e9394.jpg",
+    "static/media/BebasNeue-Regular.woff2": "/my-site/static/media/BebasNeue-Regular.bc1037b6180b03cd2af4.woff2",
+    "static/media/cvmodulo1.webp": "/my-site/static/media/cvmodulo1.cb6c3f75cc67f6357052.webp",
+    "index.html": "/my-site/index.html",
+    "main.79d9058a.css.map": "/my-site/static/css/main.79d9058a.css.map",
+    "main.43f91975.js.map": "/my-site/static/js/main.43f91975.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79d9058a.css",
+    "static/js/main.43f91975.js"
+  ]
+}
