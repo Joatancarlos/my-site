@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(../font/BebasNeue-Regular.woff2) format('opentype');
+}
+
+/*Apresentação inicial*/
+
+main {
+    padding-top: 118px;
+}
+
+.p_nome {
+    font-size: 2em;
+}
+
+p .netflix {
+    font-size: 2em;
+}
+
+.netflix {
+    color: #e50914;
+    font-family: 'Bebas Neue';
+}
+
+.container_top {
+    box-sizing: border-box;
+    display: flex;
+    width: 1200px;
+    height: 80vh;
+    margin-left: 55px;
+    justify-content: space-between;
+}
+
+.apre_ini {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-basis: 40%;
+}
+
+.botoes a {
+    text-decoration: none;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 5px;
+    padding: 15px 40px;
+    margin-right: 50px;
+    background-color: rgb(216, 216, 216);
+    color: #141414;
+    font-weight: 600;
+}
+
+.botoes a:hover {
+    background-color: #b3b3b3;
+}
+
+.botoes i {
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+}
+
+.botao_lin svg {
+    width: 23px;
+    height: 23px;
+}
+.botao_git svg {
+    width: 25px;
+    height: 25px;
+}
+
+.img {
+    border: 2px dashed red;
+    flex-basis: 50%;
+}
+
+
+/*Sobre mim*/
+
+.sobre_mim {
+    margin-top: 50px;
+    height: 90vh;
+}
+
+
+::-webkit-scrollbar {
+    height: 20px;
+    width: 10px;
+    background-color: #000000dc;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #e50914;
+}

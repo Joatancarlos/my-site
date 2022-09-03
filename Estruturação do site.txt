@@ -1,0 +1,22 @@
+cores: 
+
+logo(alguma imagem que represente a programação)         					Home/Sobre/Projetos/Contato
+
+---------------------------------------------------------------------------------------------------------------------------
+aside 		| Main
+		|	Nesta seção irá aparecer quando clicado o Home, Sobre, Projetos e Contato
+		|
+Foto		|
+Nome		|
+Ocupação	|	
+Tecnologias	|
+		|
+		|
+		|
+		|
+		|
+		|
+Rodapé
+--------------------------------------------------------------------------------------------------------------------------
+Barra com a data da criação / copyrigth / cidade
+--------------------------------------------------------------------------------------------------------------------------

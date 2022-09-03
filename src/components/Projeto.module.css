@@ -1,0 +1,17 @@
+a > img {
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+a > img:hover {
+    width: 350px;
+    height: 200px;
+    position: relative;
+}
+
+.projeto {
+    padding-top: 10px;
+    padding-right: 5px;
+}

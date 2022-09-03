@@ -1,0 +1,51 @@
+.secao_sobre_mim {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+    padding-left: 55px; 
+    background-color: #111111;
+}
+
+.profile {
+    box-sizing: border-box;
+    flex-basis: 30%;
+}
+
+.image {
+    margin: 50px 0;
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+}
+
+.name_title, .tech_list {
+    margin-bottom: 50px;
+    
+}
+
+.tech_list {
+    display: flex;
+    list-style: none;
+}
+
+.list_itens {
+    padding-right: 10px;
+}
+
+.list_itens svg {
+    width: 35px;
+    height: 35px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 40%;
+    align-items: center;
+    text-align: justify;
+    margin: 35px 0;
+}
