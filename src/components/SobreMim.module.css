@@ -1,9 +1,8 @@
+
 .secao_sobre_mim {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    margin-top: 55px;
-    padding-left: 55px; 
     background-color: #111111;
 }
 

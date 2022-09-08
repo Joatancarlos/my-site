@@ -5,8 +5,26 @@
 
 /*Apresentação inicial*/
 
-main {
-    padding-top: 118px;
+.container_top {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    /*background-image: url("../images/cortina-bg-top-2.png");*/
+}
+
+.apre_ini {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 40%;
+    padding-left: 55px;
+}
+
+.apre_ini,
+.image_top {
+    align-items: center;
 }
 
 .p_nome {
@@ -22,32 +40,19 @@ p .netflix {
     font-family: 'Bebas Neue';
 }
 
-.container_top {
-    box-sizing: border-box;
-    display: flex;
-    width: 1200px;
-    height: 80vh;
-    margin-left: 55px;
-    justify-content: space-between;
-}
-
-.apre_ini {
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-basis: 40%;
+.p_nome,
+.botoes {
+    flex-basis: 100%;
 }
 
 .botoes a {
     text-decoration: none;
-    border: 1px solid rgb(216, 216, 216);
-    border-radius: 5px;
-    padding: 15px 40px;
-    margin-right: 50px;
     background-color: rgb(216, 216, 216);
     color: #141414;
     font-weight: 600;
+    padding: 15px 40px;
+    margin-right: 50px;
+    border-radius: 5px;
 }
 
 .botoes a:hover {
@@ -69,9 +74,15 @@ p .netflix {
     height: 25px;
 }
 
-.img {
-    border: 2px dashed red;
-    flex-basis: 50%;
+.image_top {
+    flex-basis: 40%;
+    box-sizing: content-box;
+    display: flex;
+}
+
+.image_top img {
+    width: 85%;
+    
 }
 
 

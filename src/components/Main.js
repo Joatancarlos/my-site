@@ -4,6 +4,7 @@ import { Projetos } from './Projetos'
 import {BsLinkedin} from 'react-icons/bs'
 import {FaGithubSquare} from 'react-icons/fa'
 import { Cursos } from './Cursos'
+import imgProgramadorTop from '../images/programador-top-gray.png'
 
 function Main () {
     return (
@@ -15,7 +16,6 @@ function Main () {
                         <span className={styles.netflix}>Joatan Feitosa.</span> <br />
                         Desenvolvedor Front-End.
                     </p>
-                    
                     <div className={styles.botoes}>
                         <a 
                             href="https://www.linkedin.com/in/joatan-carlos-farias-feitosa-54a928220/" 
@@ -33,8 +33,8 @@ function Main () {
                         </a>
                     </div>
                 </div>
-                <div className={styles.img}>
-                    IMAGEM
+                <div className={styles.image_top}>
+                    <img src={imgProgramadorTop} alt="Ilustração de um programador web desenvolvido pelo site freepik" />
                 </div>
             </section>
             <SobreMim />
