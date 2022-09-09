@@ -4,7 +4,7 @@ import { Projetos } from './Projetos'
 import {BsLinkedin} from 'react-icons/bs'
 import {FaGithubSquare} from 'react-icons/fa'
 import { Cursos } from './Cursos'
-import imgProgramadorTop from '../images/programador-top-gray.png'
+import imgProgramadorTop from '../images/programador-top-gray-500.png'
 
 function Main () {
     return (

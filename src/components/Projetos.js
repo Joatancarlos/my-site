@@ -4,8 +4,8 @@ import imgSignup from '../images/screenshot.jpg'
 
 export const Projetos = () => {
     return (
-        <section>
-            <div className={styles.secao_projetos} id='projetos'>
+        <section id='projetos'>
+            <div className={styles.secao_projetos}>
                 <h3>Projetos</h3>
                 <div className={styles.projetos}>
                     <Projeto src={imgSignup}/>
