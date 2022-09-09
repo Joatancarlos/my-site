@@ -8,7 +8,7 @@ export const Projeto = (props) => {
     }
     return (
         <div onMouseOver={projectDescription} className={styles.projeto}>
-            <a href={props.href}><img src={props.src} alt="" /></a>
+            <a href={props.href} target={'blank'}><img src={props.src} alt="" /></a>
         </div>
     )
 }
