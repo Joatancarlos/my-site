@@ -8,10 +8,10 @@ export const Projetos = () => {
             <div className={styles.secao_projetos}>
                 <h3>Projetos</h3>
                 <div className={styles.projetos}>
-                    <Projeto src={imgSignup}/>
-                    <Projeto src={imgSignup}/>
-                    <Projeto src={imgSignup}/>
-                    <Projeto src={imgSignup}/>
+                    <Projeto src={imgSignup} href={"https://joatancarlos.github.io/signup-form/"}/>
+                    <Projeto src={imgSignup} href={"https://joatancarlos.github.io/signup-form/"}/>
+                    <Projeto src={imgSignup} href={"https://joatancarlos.github.io/signup-form/"}/>
+                    <Projeto src={imgSignup} href={"https://joatancarlos.github.io/signup-form/"}/>
                 </div>
             </div>
         </section>
