@@ -5,7 +5,7 @@ import cv from '../images/logo-cv.png'
 import rs from '../images/logo-rs.png'
 import hashtag from '../images/logo-hashtag-100.jpg'
 
-
+// OBS: No texto será inserido o que foi aprendido durante os cursos
 
 export const Cursos = () => {
     return (
