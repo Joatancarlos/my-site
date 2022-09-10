@@ -17,19 +17,19 @@ export const Cursos = () => {
                         img={cv} 
                         alt={"Logo do canal Curso em vídeo do professor Gustavo Guanabara"} 
                         title={'Curso em Vídeo'}
-                        text={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, pariatur! Vero, hic aspernatur ipsam laborum consequatur debitis at, optio adipisci corrupti nemo inventore blanditiis suscipit repellat temporibus dolore vel animi?'}
+                        text={'Através do Curso em Vídeo tive o contato com o HTML5 e CSS3 por meio das mais de 100 aulas ao longo de 3 módulos, cerca de 30h de curso e com projetos práticos ao fim de cada um deles.'}
                     />
                     <Curso 
                         img={rs} 
                         alt={"Logo da escola Rocketseat"} 
                         title={'Rocketseat'}
-                        text={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, pariatur! Vero, hic aspernatur ipsam laborum consequatur debitis at, optio adipisci corrupti nemo inventore blanditiis suscipit repellat temporibus dolore vel animi?'}
+                        text={'Com a Rocketseat me aprofundei mais no conteúdo do Front-end através do Discover que é um programa prático e gratuito para iniciar no mundo da programação'}
                     />
                     <Curso 
                         img={hashtag} 
                         alt={"Logo da Hastag Treinamentos"} 
                         title={'Hastag Treinamentos'}
-                        text={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, pariatur! Vero, hic aspernatur ipsam laborum consequatur debitis at, optio adipisci corrupti nemo inventore blanditiis suscipit repellat temporibus dolore vel animi?'}
+                        text={'O curso Python Impressionador foi meu primeiro contato com uma linguagem de programação onde pude fazer alguns projetos de automação envolvendo tanto o excel quanto buscar dados na web'}
                     />
                 </div>
             </div>

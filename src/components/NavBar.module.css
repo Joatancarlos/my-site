@@ -5,6 +5,7 @@
 
 .navbar {
     position: fixed;
+    z-index: 5;
     box-sizing: border-box;
     display: flex;
     justify-content: left;

@@ -43,7 +43,7 @@ export const SobreMim = () => {
                 </div>
                 <div className={styles.text}>
                     <h2>Sobre mim</h2>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto explicabo commodi, at quam accusamus quia illo. Sapiente tempora amet facilis hic aliquam ratione odio placeat fugiat cupiditate, animi corporis expedita?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi omnis quis consequuntur quod, recusandae debitis vel, illo et quisquam, earum ab non excepturi itaque esse deleniti minus atque exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque impedit sit laboriosam quasi voluptatem expedita. Odit voluptate nobis assumenda debitis pariatur labore, ipsa esse saepe accusamus architecto sit alias consectetur?
+                    <p> Olá! Atualmente estou em busca da minha primeira experiência profissional na programação com foco no  Front-End. Meu primeiro contato com a programação foi através de eventos gratuitos que me despertou a curiosidade para entender o que era um programador. Desde então, decidi estudar por conta própia através de cursos gratuitos esse universo que é a programação, decidindo, assim, seguir no Front-end. E é por meio deste site que venho lhe mostrar um pouco do conhecimento que foi acumulado ao longo do tempo. 
                     </p>
                 </div>
             </div>
