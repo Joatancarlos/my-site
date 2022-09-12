@@ -18,7 +18,7 @@ export const Cursos = () => {
                         img={cv} 
                         alt={"Logo do canal Curso em Vídeo do professor Gustavo Guanabara"} 
                         title={'Curso em Vídeo'}
-                        text={'Através do Curso em Vídeo tive o contato com o HTML5 e CSS3 por meio das mais de 100 aulas divididas em 3 módulos, cerca de 30h de curso e com projetos práticos ao fim de cada um deles.'}
+                        text={'Através do Curso em Vídeo, tive contato com o HTML5 e CSS3. Foram 30 horas distribuídas em 3 módulos somando mais de 100 aulas, incluindo projetos práticos ao final de cada um deles.'}
                     />
                     <Curso 
                         img={rs} 
@@ -30,13 +30,13 @@ export const Cursos = () => {
                         img={hashtag} 
                         alt={"Logo da Hastag Treinamentos"} 
                         title={'Hastag Treinamentos'}
-                        text={'O curso Python Impressionador foi meu primeiro contato com uma linguagem de programação na qual pude fazer alguns projetos de automação envolvendo tanto o excel quanto buscar dados na web.'}
+                        text={'No curso Python Impressionador, foi onde tive meu primeiro contato com uma linguagem de programação. Nele pude fazer alguns projetos de automação envolvendo tanto Excel quanto a busca de dados na Web.'}
                     />
                     <Curso 
                         img={hdc} 
                         alt={"Logo da Hora de Codar"} 
                         title={'Hora de Codar'}
-                        text={'Por meio dos cursos disponibilizados pela HDC, eu pude adiquirir os conhecimentos tanto em React.Js e Bootstrap, exemplificados através dos projetos Costs e hDCAgency, respectivamente.'}
+                        text={'Mediante cursos disponibilizados pela HDC, eu pude adquirir conhecimentos de React.Js e de Bootstrap, exemplificados pelos projetos Costs e hDCAgency, respectivamente.'}
                     />
                 </div>
             </div>
