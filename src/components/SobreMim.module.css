@@ -45,8 +45,63 @@
 .text {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     flex-basis: 40%;
-    align-items: center;
     text-align: justify;
-    margin: 35px 0;
+}
+
+.text h2 {
+    margin-bottom: 40px;
+}
+
+.text p {
+    line-height: 1.3em;
+}
+
+@media (max-width: 900px) {
+    .secao_sobre_mim {
+        padding-left: 55px;
+        justify-content: space-between;
+    }
+
+    .image img {
+        width: 150px;
+        height: 150px;
+        border-radius: 150px;
+    }
+
+    .profile, .text {
+        flex-basis: 50%;
+        padding-right: 55px;
+    }
+
+    .text {
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 750px) {
+    .secao_sobre_mim {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .profile, .text {
+        flex-basis: 100%;
+    }
+
+
+    .text {
+        padding-bottom: 3em;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    .text p {
+        font-size: .9em;
+    }
 }

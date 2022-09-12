@@ -1,4 +1,4 @@
-import styles from './Main.module.css'
+import './Main.css'
 import { SobreMim } from './SobreMim'
 import { Projetos } from './Projetos'
 import {BsLinkedin} from 'react-icons/bs'
@@ -9,31 +9,33 @@ import imgProgramadorTop from '../images/programador-top-gray-500.png'
 function Main () {
     return (
         <main>
-            <section className={styles.container_top} id='home'>
-                <div className={styles.apre_ini}>
-                    <p className={styles.p_nome}>
-                        Olá, eu sou <br />
-                        <span className={styles.netflix}>Joatan Feitosa.</span> <br />
-                        Desenvolvedor Front-End.
-                    </p>
-                    <div className={styles.botoes}>
+            <section className="container_top" id='home'>
+                <div className="apre_ini">
+                    <div className="p_nome">
+                        <p>
+                            Olá, eu sou <br />
+                            <span className="netflix">Joatan Feitosa.</span> <br />
+                            Desenvolvedor Front-End.
+                        </p>
+                    </div>
+                    <div className="botoes">
                         <a 
                             href="https://www.linkedin.com/in/joatan-carlos-farias-feitosa-54a928220/" 
                             target={'blank'}
-                            className={styles.botao_lin}> 
+                            className="botao_lin"> 
                             <i><BsLinkedin/></i> 
                             LinkedIn
                         </a>
                         <a 
                             href="https://github.com/joatancarlos" 
                             target={'blank'}
-                            className={styles.botao_git}> 
+                            className="botao_git"> 
                             <i><FaGithubSquare/></i> 
                             Github
                         </a>
                     </div>
                 </div>
-                <div className={styles.image_top}>
+                <div className="image_top">
                     <img src={imgProgramadorTop} alt="Ilustração de um programador web desenvolvido pelo site freepik" />
                 </div>
             </section>

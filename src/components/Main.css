@@ -11,47 +11,48 @@
     width: 100%;
     justify-content: space-between;
     height: 100vh;
+    padding-left: 55px;
     /*background-image: url("../images/cortina-bg-top-2.png");*/
 }
 
 .apre_ini {
-    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 40%;
-    padding-left: 55px;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
 }
 
-.apre_ini,
-.image_top {
-    align-items: center;
-}
+/*Parágrafo*/
 
-.p_nome {
+.p_nome, 
+.p_nome .netflix {
     font-size: 2em;
 }
-
-p .netflix {
-    font-size: 2em;
-}
-
 .netflix {
     color: #e50914;
     font-family: 'Bebas Neue';
 }
 
-.p_nome,
+/*Botões*/
+
 .botoes {
-    flex-basis: 100%;
+    display: flex;
+    margin-top: 5em;
 }
 
 .botoes a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
     text-decoration: none;
     background-color: rgb(216, 216, 216);
     color: #141414;
     font-weight: 600;
-    padding: 15px 40px;
-    margin-right: 50px;
+    width: 150px;
+    padding: 10px 0;
+    margin-right: 5em;
     border-radius: 5px;
 }
 
@@ -60,24 +61,25 @@ p .netflix {
 }
 
 .botoes i {
-    position: relative;
-    top: 5px;
-    margin-right: 10px;
+    margin-right: 6px;
 }
 
 .botao_lin svg {
     width: 23px;
-    height: 23px;
+    height: 25px;
 }
 .botao_git svg {
     width: 25px;
     height: 25px;
 }
 
+/*Ilustração*/
+
 .image_top {
-    flex-basis: 40%;
+    width: 40%;
     box-sizing: content-box;
     display: flex;
+    align-items: center;
 }
 
 .image_top img {
@@ -103,4 +105,52 @@ p .netflix {
 ::-webkit-scrollbar-thumb {
     border-radius: 5px;
     background-color: #e50914;
+}
+
+@media (max-width: 900px) {
+    .container_top {
+        padding-top: 4em;
+        height: 65vh;
+    }
+
+    .apre_ini {
+        flex-basis: 50%;
+    }
+
+    .image_top {
+        flex-basis: 50%;
+        justify-content: center;
+    }
+    
+    .image_top img {
+        width: 80%;   
+    }
+
+    .p_nome,
+    p .netflix {
+        font-size: 1.7em;
+    }
+
+    .botoes a {
+        padding: 10px 20px;
+        margin-right: 30px;
+    }
+
+
+}
+
+@media (max-width: 750px) {
+    .apre_ini {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .image_top {
+        display: none;
+    }
+}
+
+@media (max-width: 550px) {
+
+
 }

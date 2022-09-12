@@ -11,3 +11,19 @@
 .footer a:hover {
     text-decoration: underline;
 }
+
+
+@media (max-width: 900px) {
+    .footer p {
+        padding: 10px 55px;
+        font-size: 1em;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .footer p {
+        padding: 10px 55px;
+        font-size: .75em;
+    }
+}

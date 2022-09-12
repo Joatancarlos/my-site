@@ -10,7 +10,7 @@
     display: flex;
     justify-content: left;
     padding: 15px 0;
-    width: 99vw;
+    width: 100vw;
     box-shadow: 0 3px 4px rgba(24, 24, 24, 0.466);
     background-color: #141414;
 }
@@ -49,3 +49,12 @@
     font-weight: 600;
     cursor: pointer;
 }   
+
+@media (max-width: 900px) {
+    
+
+}
+
+@media (max-width: 550px) {
+
+}

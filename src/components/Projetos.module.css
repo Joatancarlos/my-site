@@ -14,12 +14,23 @@
     transform: translateX(00%);
 }
 
+.projetos_slider a {
+    display: contents;
+}
+
 .projetos_slider img {
+    box-sizing: border-box;
     flex: 0 0 25%;
-    max-width: 25%;
+    width: 25%;
     aspect-ratio: 16/9;
     padding: .25rem;
     border-radius: .5rem;
+    opacity: 60%;
+    transition: 500ms;
+}
+
+.projetos_slider img:hover {
+    opacity: 100%;
 }
 
 .handle {
@@ -64,4 +75,15 @@
 .handle:hover .text,
 .handle:focus .text {
   transform: scale(1.2);
+}
+
+
+@media (max-width: 900px) {
+    .projetos_slider img {
+        width: 40%;
+    }
+}
+
+@media (max-width: 550px) {
+
 }
