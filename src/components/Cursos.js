@@ -1,4 +1,4 @@
-import styles from './Cursos.module.css'
+import './Cursos.css'
 import { Curso } from './Curso'
 
 import cv from '../images/logo-cv.png'
@@ -11,9 +11,9 @@ import hdc from '../images/horadecodar.jpg'
 export const Cursos = () => {
     return (
         <section id='cursos'>
-            <div className={styles.secao_cursos}>
+            <div className="secao_cursos">
                 <h3>Cursos</h3>
-                <div className={styles.container_curso}>
+                <div className="container_curso">
                     <Curso 
                         img={cv} 
                         alt={"Logo do canal Curso em Vídeo do professor Gustavo Guanabara"} 
