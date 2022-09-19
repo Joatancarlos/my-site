@@ -85,11 +85,15 @@
 
 
 @media (max-width: 900px) {
-    .projetos_slider img {
-        width: 40%;
+    .projetos_slider {
+        --items-per-screen: 3;
     }
 }
 
 @media (max-width: 550px) {
-
+    .projetos_slider {
+        --items-per-screen: 1;
+        height: 20vh;
+        opacity: 100%;
+    }
 }

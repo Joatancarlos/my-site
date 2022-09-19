@@ -1,5 +1,5 @@
 import './SobreMim.css'
-import profileImage from '../images/joatan.jpg'
+import profileImage from '../images/joatan.jpeg'
 
 import {DiHtml5} from 'react-icons/di'
 import {DiCss3} from 'react-icons/di'
