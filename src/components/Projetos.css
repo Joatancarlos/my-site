@@ -90,10 +90,18 @@
     }
 }
 
+@media (max-width: 750px) {
+    .projetos_slider {
+        --items-per-screen: 2;
+    }
+}
+
 @media (max-width: 550px) {
     .projetos_slider {
-        --items-per-screen: 1;
-        height: 20vh;
+        --items-per-screen: 1.5;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
         opacity: 100%;
     }
 }
