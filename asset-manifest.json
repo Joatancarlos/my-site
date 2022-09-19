@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/my-site/static/css/main.7bba0a2b.css",
-    "main.js": "/my-site/static/js/main.195ee950.js",
+    "main.css": "/my-site/static/css/main.f7c4e7e2.css",
+    "main.js": "/my-site/static/js/main.439cee1d.js",
     "static/media/hdagency.jpg": "/my-site/static/media/hdagency.bf5515ce67861086f71d.jpg",
     "static/media/projeto_android.jpg": "/my-site/static/media/projeto_android.79e2dea08000e7d17fda.jpg",
     "static/media/programador-top-gray-500.png": "/my-site/static/media/programador-top-gray-500.b2b421bfc480416b9d0d.png",
     "static/media/signup.jpg": "/my-site/static/media/signup.bcdec665f48f1bd040bd.jpg",
-    "static/media/joatan.jpg": "/my-site/static/media/joatan.1ca8f234c44e242e9394.jpg",
     "static/media/embreve2.jpg": "/my-site/static/media/embreve2.2ca10b81403897e7955b.jpg",
+    "static/media/joatan.jpeg": "/my-site/static/media/joatan.1086f85ef7795fa719b0.jpeg",
     "static/media/horadecodar.jpg": "/my-site/static/media/horadecodar.35ae18c81ea33252f30c.jpg",
     "static/media/BebasNeue-Regular.woff2": "/my-site/static/media/BebasNeue-Regular.bc1037b6180b03cd2af4.woff2",
     "static/media/logo-hashtag-100.jpg": "/my-site/static/media/logo-hashtag-100.98cb1ef0e767c94db645.jpg",
     "index.html": "/my-site/index.html",
-    "main.7bba0a2b.css.map": "/my-site/static/css/main.7bba0a2b.css.map",
-    "main.195ee950.js.map": "/my-site/static/js/main.195ee950.js.map"
+    "main.f7c4e7e2.css.map": "/my-site/static/css/main.f7c4e7e2.css.map",
+    "main.439cee1d.js.map": "/my-site/static/js/main.439cee1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bba0a2b.css",
-    "static/js/main.195ee950.js"
+    "static/css/main.f7c4e7e2.css",
+    "static/js/main.439cee1d.js"
   ]
 }
