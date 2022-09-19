@@ -4,14 +4,16 @@ import imgSignup from '../images/signup.jpg'
 import imgAndroid from '../images/projeto_android.jpg'
 import imgHdAgency from '../images/hdagency.jpg'
 import imgemBreve from '../images/embreve2.jpg'
+import { useEffect, useState, useRef, useLayoutEffect } from 'react'
 export const Projetos = () => {
     
+
     return (
         <section id='projetos'>
             <h3 className='titulo_projetos'>Projetos</h3>
             <div className='container_slider'>
                 
-                <button className='handle left_handle'>
+                <button className='handle left_handle unvisible'>
                     <div className='text'>&#8249;</div>
                 </button>
                 <div className='projetos_slider'>
@@ -36,13 +38,9 @@ export const Projetos = () => {
                         src={imgemBreve}
                         alt={'Projeto Signup'}
                     />
-                    <Projeto 
-                        href={'#'}
-                        src={imgemBreve}
-                        alt={'Projeto Signup'}
-                    />
+                    
                 </div>
-                <button className='handle right_handle'>
+                <button  className='handle right_handle unvisible'>
                     <div className="text">&#8250;</div>
                 </button>
             </div>
