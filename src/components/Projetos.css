@@ -1,3 +1,4 @@
+
 .titulo_projetos {
     padding: 30px 55px;
 }
@@ -97,11 +98,19 @@
 }
 
 @media (max-width: 550px) {
+    .titulo_projetos {
+        padding-left: 30px;
+    }
+
+    .handle {
+        display: none;
+    }
     .projetos_slider {
-        --items-per-screen: 1.5;
+        --items-per-screen: 1;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         opacity: 100%;
+        padding: 0 30px;
     }
 }

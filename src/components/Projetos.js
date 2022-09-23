@@ -4,7 +4,7 @@ import imgSignup from '../images/signup.jpg'
 import imgAndroid from '../images/projeto_android.jpg'
 import imgHdAgency from '../images/hdagency.jpg'
 import imgemBreve from '../images/embreve2.jpg'
-import { useEffect, useState, useRef, useLayoutEffect } from 'react'
+//import { useEffect, useState, useRef, useLayoutEffect } from 'react'
 export const Projetos = () => {
     
 

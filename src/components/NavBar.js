@@ -1,19 +1,28 @@
-import {Link} from 'react-scroll'
-import  "./NavBar.css"
 
+import {Link} from 'react-scroll'
+import { MobileNavigation } from './MobileNavigation'
+import  "./NavBar.css"
+import { NavLinks } from './NavLinks'
+/*
+Copiar o componente MobileNavigation e Navlinks
+<Link 
+    className='nav_logo' 
+    to="home" 
+    spy={true} 
+    smooth={true} 
+    offset={-150} 
+    duration={500}>Jflix
+    onClick={() => props.isMobile && props.closeMobileMenu()}
+</Link>*/ 
 
 function NavBar () {
     return (
-        <header>
-            <nav id='navegacao' className='navbar'>
-                <Link className='nav_logo' to="home" spy={true} smooth={true} offset={-150} duration={500}>Jflix</Link>
-                <ul className='nav_list'>
-                    <li className='list_itens'><Link to="home" spy={true} smooth={true} offset={-150} duration={500}>Home</Link></li>
-                    <li className='list_itens'><Link to="sobre" spy={true} smooth={true} offset={-60} duration={500}>Sobre</Link></li>
-                    <li className='list_itens'><Link to="projetos" spy={true} smooth={true} offset={-60} duration={500}>Projetos</Link></li>
-                    <li className='list_itens'><Link to="cursos" spy={true} smooth={true} offset={-60} duration={500}>Cursos</Link></li>
-                </ul>
+        <header className='navbar'>
+            <Link className='nav_logo' to="home" spy={true} smooth={true} offset={-150} duration={500}>Jflix</Link>
+            <nav id='navegacao' >
+                <NavLinks/>
             </nav>
+            <MobileNavigation/>
         </header>
     )
 }

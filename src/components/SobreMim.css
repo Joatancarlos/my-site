@@ -3,7 +3,9 @@
     box-sizing: border-box;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #111111;
+    height: 100vh;
 }
 
 .profile {
@@ -13,7 +15,7 @@
 }
 
 .image {
-    margin: 50px 0;
+    margin-bottom: 50px;
 }
 
 .image img {
@@ -76,6 +78,10 @@
         padding-right: 55px;
     }
 
+    .tech_list {
+        margin-bottom: 0;
+    }
+
     .text {
         margin-top: 20px;
     }
@@ -87,19 +93,27 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
+        height: auto;
+        padding-top: 55px;
     }
 
     .profile, .text {
         flex-basis: 100%;
     }
-
-
     .text {
-        padding-bottom: 3em;
+        margin-bottom: 55px;
     }
 }
 
 @media (max-width: 500px) {
+    .secao_sobre_mim {
+        padding-left: 30px;
+    }
+
+    .profile, .text {
+        padding-right: 30px;
+    }
     
     .text p {
         font-size: .9em;

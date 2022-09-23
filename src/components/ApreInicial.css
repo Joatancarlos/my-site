@@ -110,7 +110,6 @@
 @media (max-width: 900px) {
     .container_top {
         padding-top: 4em;
-        height: 65vh;
     }
 
     .apre_ini {
@@ -140,17 +139,25 @@
 }
 
 @media (max-width: 750px) {
+    .container_top {
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
     .apre_ini {
         display: block;
         width: 100%;
-        margin: auto;
     }
     .image_top {
         display: none;
     }
+
+    
 }
 
 @media (max-width: 550px) {
-
+    .container_top {
+        padding-left: 30px;
+    }
 
 }
