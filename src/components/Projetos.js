@@ -93,7 +93,6 @@ export const Projetos = () => {
                         alt={'Projeto Signup'}
                     />
                     
-                    
                 </div>
                 <button className='handle right_handle'>
                     <div className="flecha">&#8250;</div>
