@@ -55,7 +55,7 @@ export const Projetos = () => {
         //ATENÇÃO: NÃO ALTERAR A ORDEM DAS CLASSES DOS BOTÕES, POIS O IF DEPENDE DA POSIÇÃO DELES
 
         <section onClick={whatHandle} id='projetos'>
-            <h3  className='titulo_projetos'>Projetos</h3>
+            <h3  className='titulo_projetos'>Projetos ok</h3>
             <div className='container_slider'>
                 <button className='handle left_handle unvisible'>
                     <div className='flecha'>&#8249;</div>
