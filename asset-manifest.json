@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-site/static/css/main.043e4276.css",
-    "main.js": "/my-site/static/js/main.128eed57.js",
+    "main.css": "/my-site/static/css/main.140743e0.css",
+    "main.js": "/my-site/static/js/main.0acbad2d.js",
     "static/media/hdagency.jpg": "/my-site/static/media/hdagency.bf5515ce67861086f71d.jpg",
     "static/media/projeto_android.jpg": "/my-site/static/media/projeto_android.79e2dea08000e7d17fda.jpg",
     "static/media/programador-top-gray-500.png": "/my-site/static/media/programador-top-gray-500.b2b421bfc480416b9d0d.png",
@@ -12,11 +12,11 @@
     "static/media/BebasNeue-Regular.woff2": "/my-site/static/media/BebasNeue-Regular.bc1037b6180b03cd2af4.woff2",
     "static/media/logo-hashtag-100.jpg": "/my-site/static/media/logo-hashtag-100.98cb1ef0e767c94db645.jpg",
     "index.html": "/my-site/index.html",
-    "main.043e4276.css.map": "/my-site/static/css/main.043e4276.css.map",
-    "main.128eed57.js.map": "/my-site/static/js/main.128eed57.js.map"
+    "main.140743e0.css.map": "/my-site/static/css/main.140743e0.css.map",
+    "main.0acbad2d.js.map": "/my-site/static/js/main.0acbad2d.js.map"
   },
   "entrypoints": [
-    "static/css/main.043e4276.css",
-    "static/js/main.128eed57.js"
+    "static/css/main.140743e0.css",
+    "static/js/main.0acbad2d.js"
   ]
 }
