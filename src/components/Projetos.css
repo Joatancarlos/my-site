@@ -27,8 +27,10 @@
 
 .projetos_slider img {
     box-sizing: border-box;
-    flex: 0 0 calc((100% / var(--items-per-screen)) );
-    max-width: calc((100% / var(--items-per-screen)) );
+    /*flex: 0 0 calc((100% / var(--items-per-screen)) );
+    max-width: calc((100% / var(--items-per-screen)) );*/
+    flex: 0 0 25%;
+    max-width: 25%;
     aspect-ratio: 16/9;
     padding: .25rem;
     border-radius: .5rem;
@@ -97,11 +99,21 @@
     .projetos_slider {
         --items-per-screen: 3;
     }
+
+    .projetos_slider img {
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
 }
 
 @media (max-width: 750px) {
     .projetos_slider {
         --items-per-screen: 2;
+    }
+
+    .projetos_slider img {
+        flex: 0 0 50%;
+        max-width: 50%;
     }
 }
 
@@ -117,5 +129,10 @@
     .projetos_slider {
         --items-per-screen: 1;
         
+    }
+
+    .projetos_slider img {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }
